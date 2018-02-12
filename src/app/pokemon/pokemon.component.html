@@ -1,0 +1,7 @@
+<button class="btn btn-default" (click)="previousPage()">Previous</button>
+<button class="btn btn-default" (click)="nextPage()">Next</button>
+<div *ngFor="let poke of pokemon.results">
+    <div class="card">
+        {{poke.name}}
+    </div>
+</div>

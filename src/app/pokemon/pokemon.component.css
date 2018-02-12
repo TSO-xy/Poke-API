@@ -1,0 +1,10 @@
+.card {
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-default {
+    color: white;
+    background-color: red;
+}
